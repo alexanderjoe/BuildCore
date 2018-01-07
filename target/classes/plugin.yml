@@ -1,0 +1,39 @@
+name: BuildCore
+author: alexanderjoe
+version: 1.0
+main: tk.alexanderjoe.build.build
+description: Core for the BuildServer.
+
+commands:
+    chatclearall:
+        usage: /<command>
+        aliases: [cca]
+        description: Clear all players chat.
+    chatclear:
+        usage: /<command>
+        aliases: [cc]
+        description: Clear your chat.
+    kick:
+        usage: /<command> <player> <reason>
+        aliases: [k]
+        description: Kick a player with reason.
+    guide:
+        usage: /<command>
+        aliases: [gu]
+        description: Guide to the build server.
+    download:
+        usage: /<command> <world>
+        description: Download a world.
+    nnw:
+        usage: /<command>
+        aliases: [nonewworlds]
+        description: Disable world creation.
+    mvc:
+        usage: /<command>
+        description: Null
+    mv:
+        usage: /<command>
+        description: Null
+    mvcreate:
+        usage: /<command>
+        description: Null
