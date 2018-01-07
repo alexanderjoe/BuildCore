@@ -34,14 +34,14 @@ public class build extends JavaPlugin implements Listener {
         getCommand("chatclear").setExecutor(new CC());
         getCommand("kick").setExecutor(new Kick());
         getCommand("guide").setExecutor(new Guide());
-        getCommand("nnw").setExecutor(new NNW());
+//        getCommand("nnw").setExecutor(new NNW());
 
-        if(!configmanager.WCV()) {
-            getCommand("mvc").setExecutor(new mvc());
-            getCommand("mvcreate").setExecutor(new mvc());
-            getCommand("mv").setExecutor(new mvc());
-            ConsoleSender.send(prefix + "&cWorld creation has been disabled.");
-        }
+//        if(!configmanager.WCV()) {
+//            getCommand("mvc").setExecutor(new mvc());
+//            getCommand("mvcreate").setExecutor(new mvc());
+//            getCommand("mv").setExecutor(new mvc());
+//            ConsoleSender.send(prefix + "&cWorld creation has been disabled.");
+//        }
 
         //Config
         File f = new File(this.getDataFolder(), "config.yml");

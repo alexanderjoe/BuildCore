@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="795980bf-132d-4fc2-a81e-4df2f6804348" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/BuildCore.iml" afterPath="$PROJECT_DIR$/.idea/BuildCore.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mashape_unirest_unirest_java_1_4_9.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_lingala_zip4j_zip4j_1_3_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_0_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_6.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_3_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_3_6.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20140107.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_6.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tk/alexanderjoe/build/build.java" afterPath="$PROJECT_DIR$/src/main/java/tk/alexanderjoe/build/build.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tk/alexanderjoe/build/commands/Download.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tk/alexanderjoe/build/commands/NNW.java" afterPath="$PROJECT_DIR$/src/main/java/tk/alexanderjoe/build/commands/NNW.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tk/alexanderjoe/build/commands/mvc.java" afterPath="$PROJECT_DIR$/src/main/java/tk/alexanderjoe/build/commands/mvc.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tk/alexanderjoe/build/utils/Zip.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/alexanderjoe/build/build.class" afterPath="$PROJECT_DIR$/target/classes/tk/alexanderjoe/build/build.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/alexanderjoe/build/commands/Download$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/alexanderjoe/build/commands/Download.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/alexanderjoe/build/commands/Guide.class" afterPath="$PROJECT_DIR$/target/classes/tk/alexanderjoe/build/commands/Guide.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/alexanderjoe/build/commands/NNW.class" afterPath="$PROJECT_DIR$/target/classes/tk/alexanderjoe/build/commands/NNW.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/alexanderjoe/build/commands/mvc.class" afterPath="$PROJECT_DIR$/target/classes/tk/alexanderjoe/build/commands/mvc.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/alexanderjoe/build/utils/Zip.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,17 +14,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="build.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/tk/alexanderjoe/build/build.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            <state relative-caret-position="238">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NNW.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NNW.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tk/alexanderjoe/build/commands/NNW.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -121,10 +89,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/plugin.yml" />
         <option value="$PROJECT_DIR$/src/main/java/tk/alexanderjoe/build/commands/mvc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tk/alexanderjoe/build/build.java" />
         <option value="$PROJECT_DIR$/src/main/java/tk/alexanderjoe/build/utils/configmanager.java" />
         <option value="$PROJECT_DIR$/src/main/resources/config.yml" />
         <option value="$PROJECT_DIR$/src/main/java/tk/alexanderjoe/build/commands/NNW.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tk/alexanderjoe/build/build.java" />
       </list>
     </option>
   </component>
@@ -342,7 +310,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -351,7 +318,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19565217" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19565217" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21428572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -757,14 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tk/alexanderjoe/build/build.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tk/alexanderjoe/build/utils/configmanager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -781,6 +740,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="22" column="87" lean-forward="false" selection-start-line="22" selection-start-column="87" selection-end-line="22" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tk/alexanderjoe/build/build.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="51" />
           <folding />
         </state>
       </provider>
