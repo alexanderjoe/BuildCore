@@ -21,9 +21,6 @@ commands:
         usage: /<command>
         aliases: [gu]
         description: Guide to the build server.
-    download:
-        usage: /<command> <world>
-        description: Download a world.
     nnw:
         usage: /<command>
         aliases: [nonewworlds]
