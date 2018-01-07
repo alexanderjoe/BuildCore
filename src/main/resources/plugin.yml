@@ -25,6 +25,9 @@ commands:
         usage: /<command>
         aliases: [nonewworlds]
         description: Disable world creation.
+    ping:
+        usage: /<command>
+        description: Get your current ping to the server.
     mvc:
         usage: /<command>
         description: Null

@@ -4,6 +4,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Color;
 import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -34,6 +35,7 @@ public class build extends JavaPlugin implements Listener {
         getCommand("chatclear").setExecutor(new CC());
         getCommand("kick").setExecutor(new Kick());
         getCommand("guide").setExecutor(new Guide());
+        getCommand("ping").setExecutor(new ping());
 //        getCommand("nnw").setExecutor(new NNW());
 
 //        if(!configmanager.WCV()) {
