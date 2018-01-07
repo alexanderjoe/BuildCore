@@ -17,14 +17,4 @@ public class configmanager {
     public static void SaveConfig() {
         build.plugin.saveConfig();
     }
-
-    public static boolean WCV() {
-        Boolean WCV = getConfig().getBoolean("WCV");
-        return WCV;
-    }
-
-    public static void SetWCV(Boolean set) {
-        getConfig().set("WCV", set);
-        SaveConfig();
-    }
 }

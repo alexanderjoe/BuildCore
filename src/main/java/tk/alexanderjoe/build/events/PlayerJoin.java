@@ -1,4 +1,4 @@
-package tk.alexanderjoe.build.utils;
+package tk.alexanderjoe.build.events;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
