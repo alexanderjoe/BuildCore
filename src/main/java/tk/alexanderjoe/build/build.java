@@ -30,6 +30,7 @@ public class build extends JavaPlugin implements Listener {
         getCommand("kick").setExecutor(new Kick());
         getCommand("guide").setExecutor(new Guide());
         getCommand("ping").setExecutor(new ping());
+        getCommand("downloadworld").setExecutor(new DownloadWorld());
 
         //Config
         File f = new File(this.getDataFolder(), "config.yml");

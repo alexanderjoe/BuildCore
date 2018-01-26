@@ -24,3 +24,6 @@ commands:
     ping:
         usage: /<command>
         description: Get your current ping to the server.
+    downloadworld:
+        usage: /<command> <world>
+        description: Download a world.
