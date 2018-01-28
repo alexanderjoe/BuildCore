@@ -1,6 +1,9 @@
 package tk.alexanderjoe.build;
 
+import org.bukkit.Bukkit;
+import org.bukkit.GameMode;
 import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -29,7 +32,7 @@ public class build extends JavaPlugin implements Listener {
         getCommand("chatclear").setExecutor(new CC());
         getCommand("kick").setExecutor(new Kick());
         getCommand("guide").setExecutor(new Guide());
-        getCommand("ping").setExecutor(new ping());
+        getCommand("Ping").setExecutor(new Ping());
         getCommand("downloadworld").setExecutor(new DownloadWorld());
 
         //Config
@@ -46,4 +49,22 @@ public class build extends JavaPlugin implements Listener {
 
         ConsoleSender.send(prefix + "&4Deactivated!");
     }
+
+    public static void gameUP(Runnable runnable, Player p) {
+        Bukkit.getServer().getScheduler().runTask(Bukkit.getPluginManager().getPlugin("BuildCore"), new Runnable() {
+            @Override
+            public void run() {
+                p.setGameMode(GameMode.CREATIVE);
+            }
+        }, 0, 20);
+    }
+//
+//    public void gamethem(Runnable runnable) {
+//        Bukkit.getServer().getScheduler().runTask(this, new Runnable() {
+//            @Override
+//            public void run() {
+//                p.setGameMode(GameMode.CREATIVE);
+//            }
+//        }, 0, 20);
+//    }
 }

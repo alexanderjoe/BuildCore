@@ -11,10 +11,10 @@ import tk.alexanderjoe.build.utils.ColorTranslator;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-public class ping implements CommandExecutor {
+public class Ping implements CommandExecutor {
 
     public boolean onCommand(CommandSender sender, Command cmd, String s, String[] args) {
-        if(cmd.getName().equalsIgnoreCase("ping")) {
+        if(cmd.getName().equalsIgnoreCase("Ping")) {
             if(args.length == 0 && sender instanceof Player) {
                 Player p = (Player) sender;
                 int ping = getPing(p);
@@ -34,7 +34,7 @@ public class ping implements CommandExecutor {
                 else{
                     strPing = "&8" + ping;
                 }
-                p.sendMessage(ColorTranslator.translate(build.prefix + "Your ping is &f" + strPing));
+                p.sendMessage(ColorTranslator.translate(build.prefix + "Your Ping is &f" + strPing));
             } else {
                 Player p = (Player) sender;
                 Player target = Bukkit.getPlayer(args[0]);
@@ -55,7 +55,7 @@ public class ping implements CommandExecutor {
                 else{
                     strPing = "&8" + ping;
                 }
-                p.sendMessage(ColorTranslator.translate(build.prefix + target.getName() +"'s ping is &f" + strPing));
+                p.sendMessage(ColorTranslator.translate(build.prefix + target.getName() +"'s Ping is &f" + strPing));
             }
         }
         return true;
@@ -73,7 +73,7 @@ public class ping implements CommandExecutor {
             Method getHandle = CraftPlayer.getClass().getMethod("getHandle", new Class[0]);
             Object EntityPlayer = getHandle.invoke(CraftPlayer, new Object[0]);
 
-            Field ping = EntityPlayer.getClass().getDeclaredField("ping");
+            Field ping = EntityPlayer.getClass().getDeclaredField("Ping");
 
             return ping.getInt(EntityPlayer);
         }

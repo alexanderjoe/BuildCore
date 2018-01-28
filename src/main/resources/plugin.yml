@@ -25,5 +25,6 @@ commands:
         usage: /<command>
         description: Get your current ping to the server.
     downloadworld:
-        usage: /<command> <world>
-        description: Download a world.
+        usage: /<command>
+        aliases: [upload, getworld]
+        description: Download the current world.
