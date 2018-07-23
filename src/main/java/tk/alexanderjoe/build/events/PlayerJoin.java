@@ -20,10 +20,9 @@ public class PlayerJoin implements Listener {
         e.setJoinMessage(null);
 
         //Tidy up the player
-        p.setGameMode(GameMode.CREATIVE);
         p.setHealth(20);
         p.setFoodLevel(20);
-        build.gameUP(p);
+        p.setGameMode(GameMode.CREATIVE);
 
         //Play a sound
         for (Player p2 : Bukkit.getServer().getOnlinePlayers()) {

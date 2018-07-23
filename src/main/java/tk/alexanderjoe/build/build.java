@@ -49,22 +49,4 @@ public class build extends JavaPlugin implements Listener {
 
         ConsoleSender.send(prefix + "&4Deactivated!");
     }
-
-    public static void gameUP(Runnable runnable, Player p) {
-        Bukkit.getServer().getScheduler().runTask(Bukkit.getPluginManager().getPlugin("BuildCore"), new Runnable() {
-            @Override
-            public void run() {
-                p.setGameMode(GameMode.CREATIVE);
-            }
-        }, 0, 20);
-    }
-//
-//    public void gamethem(Runnable runnable) {
-//        Bukkit.getServer().getScheduler().runTask(this, new Runnable() {
-//            @Override
-//            public void run() {
-//                p.setGameMode(GameMode.CREATIVE);
-//            }
-//        }, 0, 20);
-//    }
 }
